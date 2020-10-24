@@ -22,7 +22,7 @@ fn main() {
         _ => (),
     };
 
-    println!("");
+    println!("\n");
 
     let some_u8_value = Some(3u8);
     match some_u8_value {
