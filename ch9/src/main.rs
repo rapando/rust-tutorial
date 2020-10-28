@@ -37,5 +37,7 @@ fn main() {
     // });
 
     // option 3
+    let x = 34;
+    println!("Hello, x is {}", x);
     let _f = File::open("hello.txt").expect("Failed to open file");
 }
